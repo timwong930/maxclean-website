@@ -15,8 +15,8 @@
   --radius-lg: 18px;
   --radius-md: 14px;
   --max-width: 1180px;
-  --font-body: "Geist", "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-display: "Geist", "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 * {
@@ -229,14 +229,15 @@ details,
 .hero-copy h1,
 .section h2 {
   font-family: var(--font-display);
-  letter-spacing: -0.04em;
-  line-height: 0.98;
+  letter-spacing: -0.03em;
+  line-height: 1.04;
   margin: 18px 0 14px;
 }
 
 .hero-copy h1 {
-  font-size: clamp(2.6rem, 5vw, 5.2rem);
-  max-width: 13ch;
+  font-size: clamp(2.5rem, 4.6vw, 4.9rem);
+  font-weight: 700;
+  max-width: 12ch;
 }
 
 .lede,

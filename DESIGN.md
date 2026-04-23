@@ -11,7 +11,7 @@ Reference style direction: `awesome-design-md` / DESIGN.md catalogs.
 - Real photos first
 
 ## Typography
-- Geist / Geist Mono style stack
+- Inter typography with a clean, professional headline treatment
 - Large compressed headlines
 - Clean body copy
 - Avoid loud or overly playful text treatment
