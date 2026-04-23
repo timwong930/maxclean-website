@@ -63,7 +63,9 @@
     <header class="topbar">
       <div class="container nav-row">
         <a class="brand" href="#top" aria-label="Maxclean Carpet Cleaning home">
-          <span class="brand-mark">MC</span>
+          <span class="brand-mark" aria-hidden="true">
+            <img src="assets/logo.jpg" alt="" />
+          </span>
           <span class="brand-copy">
             <strong>Maxclean Carpet Cleaning</strong>
             <span>Placentia • Orange County</span>
@@ -366,5 +368,27 @@
       <a href="tel:7148099942">Call</a>
       <a href="tel:4243751054">Text</a>
     </div>
+
+    <script>
+      (() => {
+        const header = document.querySelector('.topbar');
+        if (!header) return;
+
+        let ticking = false;
+        const update = () => {
+          const compact = window.scrollY > 24;
+          header.classList.toggle('is-compact', compact);
+          ticking = false;
+        };
+
+        update();
+        window.addEventListener('scroll', () => {
+          if (!ticking) {
+            window.requestAnimationFrame(update);
+            ticking = true;
+          }
+        }, { passive: true });
+      })();
+    </script>
   </body>
 </html>
