@@ -6,9 +6,9 @@ A simple, mobile-first static website for **Maxclean Carpet & Tile Care** in Pla
 - Local-business landing page
 - Real Nextdoor-sourced business photos
 - SEO metadata and schema
-- `AI-CONTEXT.md`
+- `DESIGN.md` and `AI-CONTEXT.md`
 - `robots.txt`
-- `sitemap.xml` (update the placeholder domain before deploy)
+- `sitemap.xml` (update the live domain before deploy)
 
 ## Contact
 - **Diego Garcia**

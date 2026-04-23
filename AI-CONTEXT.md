@@ -5,6 +5,7 @@
 - **Owner:** Diego Garcia
 - **Location:** Placentia, California
 - **Primary service area:** Orange County
+- **Visual direction:** premium dark theme with blue accent, crisp geometry, and real Nextdoor photos
 
 ## Services
 - Carpet cleaning

@@ -1,22 +1,22 @@
 :root {
-  --bg: #071119;
-  --bg-2: #0d1820;
-  --panel: rgba(11, 21, 28, 0.82);
-  --panel-strong: rgba(12, 24, 32, 0.96);
-  --line: rgba(174, 222, 229, 0.14);
-  --line-strong: rgba(174, 222, 229, 0.22);
-  --text: #eef7f8;
-  --muted: #a7bdc2;
-  --soft: #d5e4e7;
-  --accent: #70e0d1;
-  --accent-2: #b8fff5;
-  --shadow: 0 22px 70px rgba(0, 0, 0, 0.35);
-  --radius-xl: 28px;
-  --radius-lg: 22px;
-  --radius-md: 16px;
+  --bg: #071019;
+  --bg-2: #0b1520;
+  --panel: rgba(9, 17, 24, 0.88);
+  --panel-strong: rgba(12, 22, 31, 0.97);
+  --line: rgba(124, 163, 255, 0.14);
+  --line-strong: rgba(124, 163, 255, 0.24);
+  --text: #eef5ff;
+  --muted: #a8b8cf;
+  --soft: #dbe6f7;
+  --accent: #5c8dff;
+  --accent-2: #c9d9ff;
+  --shadow: 0 22px 70px rgba(0, 0, 0, 0.36);
+  --radius-xl: 24px;
+  --radius-lg: 18px;
+  --radius-md: 14px;
   --max-width: 1180px;
-  --font-body: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Geist", "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: "Geist", "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 * {
@@ -32,9 +32,9 @@ body {
   font-family: var(--font-body);
   color: var(--text);
   background:
-    radial-gradient(circle at top left, rgba(112, 224, 209, 0.15), transparent 26%),
-    radial-gradient(circle at top right, rgba(184, 255, 245, 0.08), transparent 20%),
-    linear-gradient(180deg, #050c11 0%, var(--bg) 38%, #09141b 100%);
+    radial-gradient(circle at top left, rgba(92, 141, 255, 0.14), transparent 26%),
+    radial-gradient(circle at top right, rgba(201, 217, 255, 0.08), transparent 20%),
+    linear-gradient(180deg, #050b11 0%, var(--bg) 38%, #09111a 100%);
   line-height: 1.6;
 }
 
@@ -106,11 +106,11 @@ select {
   width: 52px;
   height: 52px;
   border-radius: 18px;
-  background: linear-gradient(145deg, rgba(112, 224, 209, 1), rgba(184, 255, 245, 0.92));
-  color: #06211d;
+  background: linear-gradient(145deg, rgba(92, 141, 255, 1), rgba(201, 217, 255, 0.94));
+  color: #06131f;
   font-weight: 800;
   letter-spacing: 0.08em;
-  box-shadow: 0 16px 35px rgba(112, 224, 209, 0.22);
+  box-shadow: 0 16px 35px rgba(92, 141, 255, 0.2);
   flex-shrink: 0;
 }
 
@@ -163,9 +163,9 @@ select {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--accent), #37cdbf);
-  color: #061311;
-  box-shadow: 0 18px 50px rgba(55, 205, 191, 0.18);
+  background: linear-gradient(135deg, var(--accent), #3f72ff);
+  color: #06131f;
+  box-shadow: 0 18px 50px rgba(92, 141, 255, 0.2);
 }
 
 .btn-secondary,
@@ -187,8 +187,8 @@ select {
   gap: 8px;
   padding: 10px 14px;
   border-radius: 999px;
-  border: 1px solid rgba(112, 224, 209, 0.18);
-  background: rgba(112, 224, 209, 0.08);
+  border: 1px solid rgba(92, 141, 255, 0.18);
+  background: rgba(92, 141, 255, 0.08);
   color: var(--accent-2);
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -203,7 +203,7 @@ select {
 details,
 .cta-panel {
   border: 1px solid var(--line);
-  background: linear-gradient(180deg, rgba(11, 21, 28, 0.95), rgba(9, 17, 23, 0.9));
+  background: linear-gradient(180deg, rgba(10, 18, 26, 0.96), rgba(8, 15, 22, 0.92));
   box-shadow: var(--shadow);
 }
 
@@ -219,6 +219,7 @@ details,
 .hero-visual {
   border-radius: var(--radius-xl);
   overflow: hidden;
+  border: 1px solid var(--line);
 }
 
 .hero-copy {
@@ -228,14 +229,14 @@ details,
 .hero-copy h1,
 .section h2 {
   font-family: var(--font-display);
-  letter-spacing: -0.03em;
-  line-height: 1.02;
+  letter-spacing: -0.04em;
+  line-height: 0.98;
   margin: 18px 0 14px;
 }
 
 .hero-copy h1 {
   font-size: clamp(2.6rem, 5vw, 5.2rem);
-  max-width: 14ch;
+  max-width: 13ch;
 }
 
 .lede,
@@ -394,9 +395,9 @@ details {
   height: 40px;
   border-radius: 14px;
   margin-bottom: 16px;
-  background: rgba(112, 224, 209, 0.1);
+  background: rgba(92, 141, 255, 0.1);
   color: var(--accent-2);
-  border: 1px solid rgba(112, 224, 209, 0.16);
+  border: 1px solid rgba(92, 141, 255, 0.16);
 }
 
 .service-card h3 {
@@ -436,7 +437,7 @@ details {
 blockquote {
   margin: 0;
   padding: 14px 16px;
-  border-left: 3px solid rgba(112, 224, 209, 0.45);
+  border-left: 3px solid rgba(92, 141, 255, 0.45);
   background: rgba(255, 255, 255, 0.03);
   border-radius: 12px;
   color: var(--soft);
@@ -745,7 +746,7 @@ details p {
   }
 
   .mobile-cta a:first-child {
-    background: linear-gradient(135deg, var(--accent), #37cdbf);
+    background: linear-gradient(135deg, var(--accent), #3f72ff);
     color: #061311;
   }
 
