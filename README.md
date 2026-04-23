@@ -1,12 +1,12 @@
-# Maxclean Carpet & Tile Care Website
+# Maxclean Carpet Cleaning Website
 
-A simple, mobile-first static website for **Maxclean Carpet & Tile Care** in Placentia, CA.
+A simple, mobile-first static website for **Maxclean Carpet Cleaning** in Placentia, CA.
 
 ## Includes
 - Local-business landing page
 - Real Nextdoor-sourced business photos
 - SEO metadata and schema
-- `DESIGN.md` and `AI-CONTEXT.md`
+- `DESIGN.md` and `AI-CONTEXT.md` keep the visual system and business facts aligned
 - `robots.txt`
 - `sitemap.xml` (update the live domain before deploy)
 

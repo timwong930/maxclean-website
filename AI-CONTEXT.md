@@ -1,7 +1,7 @@
-# Maxclean Carpet & Tile Care
+# Maxclean Carpet Cleaning
 
 ## Business summary
-- **Business name:** Maxclean Carpet & Tile Care
+- **Business name:** Maxclean Carpet Cleaning
 - **Owner:** Diego Garcia
 - **Location:** Placentia, California
 - **Primary service area:** Orange County
@@ -9,22 +9,32 @@
 
 ## Services
 - Carpet cleaning
+- Carpet & flooring cleaning
 - Tile & grout cleaning
+- Shower cleaning
+- Mattress cleaning
 - Upholstery cleaning
+- Leather cleaning and conditioning
 - Rug cleaning
-- Stair cleaning
-- Power washing
+- Water extraction
+- Odor removal and pet odor control
+- Stain removal and stain protection
+- Steam cleaning
+- Residential, commercial, and mobile home service
+- Virtual and in-person consultations
 
 ## Contact
 - **Phone:** 714-809-9942
 - **Alt phone:** 424-375-1054
-- **Lead method:** phone call or text
+- **Email:** maxcleanservices2023@gmail.com
+- **Lead method:** phone call, text, or email
 
 ## Proof / trust signals
+- Licensed and insured
+- Workers’ comp insured
 - Strong Nextdoor word-of-mouth
-- 16+ recommendations mentioned on the profile
 - Owner-operated
-- Residential and commercial work
+- Family business
 - Customers mention friendly, quick service and reasonable pricing
 
 ## Messaging style
@@ -42,4 +52,4 @@
 - Power washing Orange County
 
 ## Site goal
-Make it easy for a nearby homeowner or business owner to call Diego and book a quote fast.
+Make it easy for a nearby homeowner or business owner to call Diego and book a quote fast. The public site should feel clean, professional, and trustworthy.
