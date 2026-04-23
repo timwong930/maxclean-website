@@ -1,18 +1,18 @@
 # Maxclean DESIGN.md
 
-Reference style direction: `awesome-design-md` / DESIGN.md catalogs.
+Reference style direction: Apple-inspired website polish.
 
 ## Visual system
-- Premium dark theme
-- Blue accent, not green
+- Light, airy theme
+- Neutral whites and soft grays with a clean blue accent
 - Crisp geometry with modest rounding
 - Strong whitespace and clear hierarchy
-- Shadow-as-border card treatment
+- Thin borders, soft shadows, and subtle translucency
 - Real photos first
 
 ## Typography
-- Inter typography with a clean, professional headline treatment
-- Large compressed headlines
+- System-style sans stack with a clean, professional headline treatment
+- Large, calm headlines
 - Clean body copy
 - Avoid loud or overly playful text treatment
 
